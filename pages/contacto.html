@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>Ciudadmotos</title>
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <section class="menu__container">
+                <h1 class="menu__logo">Ciudad Motos</h1>
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="../index.html" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Productos <img src="/assets/arrow.svg" class="menu__arrow"></a>
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 1</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 2</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Accesorios  <img src="/assets/arrow.svg" class="menu__arrow"></a>
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Projects 1</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Projects 2</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Projects 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="./contacto.html" class="menu__link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="menu__hamburguer">
+                    <img src="/assets/menu.svg" class="menu__img">
+                </div>
+            </section>
+        </nav>
+    </header>
+    <section class="cuerpo">
+        <form>
+            <h2 class="cuerpo__titulo">Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="form-txt">
+                    <a href="#">Politicas de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col" id="company">
+                    <img src="../images/favicon.png" alt="" class="logo">
+                    <p>
+                    Estamos especializados en ventas, haz tu pedio o consulta . Pruebe nuestros servicios premium.
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col" id="services">
+                    <h3>Services</h3>
+                    <div class="links">
+                        <a href="#">Services oficial</a>
+                        <a href="#">Vestimenta de seguridad</a>
+                        <a href="#">Colocacion de alarmas</a>
+                        <a href="#">Limpieza premium</a>
+                    </div>
+                </div>
+                <div class="col" id="useful-links">
+                    <h3>Links</h3>
+                    <div class="links">
+                        <a href="#">Home</a>
+                        <a href="#">Contacto</a>
+                        <a href="#">Finaciacion</a>
+                        <a href="#">Productos</a>
+                    </div>
+                </div>
+                <div class="col" id="contact">
+                    <h3>Contact</h3>
+                    <div class="contact-details">
+                        <i class="fa fa-location"></i>
+                        <p>San Martin, <br>Buenos Aires</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa fa-phone"></i>
+                        <p>+11 3333-3333</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
