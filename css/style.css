@@ -504,6 +504,7 @@ input, textarea {
     align-items: center;
     width: auto;
     padding-left: 40px;
+    padding-top: 10px;
 }
 .caracteristicas__info ul{
     display: flex;
@@ -520,7 +521,7 @@ input, textarea {
 }
 @media(max-width: 390px){
 .caracteristicas__caja{
-    height: 720px;
+    height: 710px;
 }
 }
 }
