@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-size: 16px;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 255, 0.075);
+  box-shadow: 1px 1px 10px 1px rgb(104, 180, 214);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(104, 180, 214);
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

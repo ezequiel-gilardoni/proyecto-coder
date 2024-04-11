@@ -8,6 +8,7 @@
 body{
     font-family:Arial, Helvetica, sans-serif
 }
+
 /*  menu de navegacion*/
 
 .menu{
@@ -25,7 +26,9 @@ body{
     height: 100%;
     margin: 0 auto;
 }
-
+.menu__logo{
+    color: white;
+}
 .menu__links{
     height: 100%;
     transition: transform .5s;
@@ -201,13 +204,13 @@ body{
 }
 .card__titulo{
     font-size: 20px;
-    text-shadow: 1px 1px 2px  rgb(104, 180, 214);
+    text-shadow: 2px 2px 2px  rgb(104, 180, 214);
 }
 .card__imagen{
     width: 90%;
 }
 .card__texto{
-    box-shadow: 3px 2px 10px 2px rgb(104, 180, 214);
+    box-shadow: 1px 1px 10px 1px rgb(104, 180, 214);
 }
 @media (max-width:700px){
     .card{
@@ -318,21 +321,6 @@ footer{
 .col .contact-details i{
     margin-right:15px;
 }
-.row .form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:2rem 0;
-}
-.row .form input{
-    background-color: #1a1c20ff;
-    border:0;
-    outline:none;
-    padding:14px 20px;
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
 
 @media(max-width:900px)
 {
@@ -398,7 +386,7 @@ input, textarea {
     outline: none;
     }
     input::placeholder, textarea::placeholder{
-        color: rgb(105, 105, 105);
+        color: rgb(252, 250, 250);
     }
     .form-txt{
         margin-bottom: 30px;
@@ -412,19 +400,21 @@ input, textarea {
         font-weight: 600;
         text-decoration: none;
     }
+    /*buttons*/
     .btn{
         font-size: 16px;
         color: #ffffff;
         border: 0;
         border-radius: 25px;
         background-color: rgba(0, 0, 255, 0.075);
-        box-shadow: 0 0 20px rgb(104, 180, 214);
+        box-shadow: 1px 1px 10px 1px rgb(104, 180, 214);
         cursor: pointer;
     }
     .btn:hover{
         background-color: rgba(104, 179, 214, 0.753);
         color: white;
     }
+    /*buttons*/
     @media(max-width:991px){
         .cuerpo{
             padding: 30px;
