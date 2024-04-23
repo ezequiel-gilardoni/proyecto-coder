@@ -511,15 +511,16 @@ input::placeholder, textarea::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.938);
+  height: 800px;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(104, 180, 214);
 }
 
 .flex-images {
   display: flex;
   flex-direction: row;
-  width: 800px;
-  gap: 1px;
+  width: 900px;
+  gap: 2px;
 }
 
 .flex-images-item {
@@ -530,7 +531,7 @@ input::placeholder, textarea::placeholder {
   object-fit: cover;
   opacity: 0.5;
   height: 500px;
-  transition: 200ms;
+  transition: 400ms;
   transition-timing-function: ease-out;
 }
 
