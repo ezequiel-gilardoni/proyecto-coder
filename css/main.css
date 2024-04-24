@@ -177,7 +177,7 @@ p, a, li, span {
   }
 }
 .main-ofertas {
-  background-image: url(/images/fondo.jpg);
+  background-image: url(../../images/fondo.jpg);
 }
 .main-ofertas .main-ofertas__titulo {
   color: black;
@@ -350,7 +350,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/fondo.jpg);
+  background-image: url(../../images/fondo.jpg);
 }
 
 form {
@@ -418,7 +418,7 @@ input::placeholder, textarea::placeholder {
   }
 }
 .main__productos {
-  background-image: url(/images/fondo.jpg);
+  background-image: url(../../images/fondo.jpg);
 }
 
 .caracteristicas {
